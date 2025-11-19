@@ -1,0 +1,61 @@
+.circle{
+    width: 600px;
+    height: 600px;
+    background-color: blue;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+    
+}
+.res{
+    transform: rotate(45deg);
+    width: 270px;
+    height: 270px;
+    background-color: black;
+    border-radius: 100% 10% 10% 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.res p{
+    color: white;
+    transform: rotate(-45deg);
+    font-size: 20px;
+}
+.btn{
+    font-size: 20px;
+    padding: 15px 40px 15px 40px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-color: rgb(96, 31, 156);
+    color: white;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+
+@keyframes motion {
+    0%, 100%{
+        transform: translateX(0);
+    }
+    20%, 40%, 60%, 80% {
+        transform: translateX(15px);
+    }
+    10%, 30%, 50%, 70%, 90% {
+        transform: translateX(-15px);
+    }
+}
+.animation {
+    animation: motion 1s;
+}
