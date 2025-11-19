@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Digi";
+    color: aliceblue;
+}
+
+@font-face {
+    font-family: "Digi";
+    src: url("../fonts/DS-DIGI.TTF");
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #0e0e0e;
+    background-image: url("../image/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: lighter;
+}
+
+.container1 {
+    background-color: #0c0c0c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 60vh;
+}
+
+.content_team {
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 90%;
+    height: 50vh;
+}
+
+.team {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.team1, .team2 {
+    padding: 20px;
+    font-weight: lighter;
+    width: 50%;
+}
+
+.h1 {
+    font-weight: lighter;
+}
+
+.num {
+    color: rgb(255, 255, 255);
+}
+
+.num p {
+    font-size: 60px;
+}
+
+.p {
+    font-weight: lighter;
+    width: 50px;
+}
+
+.button1, .button2 {
+    margin-top: 5%;
+    padding: 15px 25px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+}
+
+.button1:hover, .button2:hover{
+    background-color: white;
+    color: green;
+}
+
+.conteiner2 {
+    margin-top: 30px;
+    background-color: rgb(39, 39, 39);
+    border: solid 20px #0c0c0c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 20%;
+}
+
+.content_res {
+    align-items: center;
+    text-align: center;
+}
+
+.drw {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
